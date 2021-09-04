@@ -29,7 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Sone.unity
     guid: e56f85fab71fe624db0cb4782238ebba
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/start.unity
     guid: 927bbd0bba72a44e197a9cddfc8f3e2f
   m_configObjects: {}
