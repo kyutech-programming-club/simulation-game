@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using static Selectoney;
 using static SelectOnex;
 using static Selectone;
-public class Lastone : MonoBehaviour
+public class Lastthree : MonoBehaviour
 {
     public GameObject texta;
     public GameObject textb;
