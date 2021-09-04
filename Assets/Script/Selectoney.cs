@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SelectionBack2ButtonScript : MonoBehaviour
+public class Selectoney : MonoBehaviour
 {
+    public static int y = 0;
+
     public void OnClickStartButton()
     {
-        SceneManager.LoadScene("opening");
+        y+=10;
+        SceneManager.LoadScene("selection2");
     }
 }
- 

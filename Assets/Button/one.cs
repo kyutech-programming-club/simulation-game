@@ -9,10 +9,10 @@ public class one : MonoBehaviour
     public void OnClickStartButton()
     {
         if(a==1){
-            SceneManager.LoadScene("explain");
+            SceneManager.LoadScene("selection2");
         }
         else{
-            SceneManager.LoadScene("Configuration");
+            SceneManager.LoadScene("explain");
             a+=1;
         }
     }
