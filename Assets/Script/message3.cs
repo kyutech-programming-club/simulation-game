@@ -10,6 +10,10 @@ public class message3 : MonoBehaviour
     public GameObject textc;
     public GameObject textd;
     public GameObject texte;
+    public GameObject button1;
+    public GameObject button2;
+    public GameObject button3;
+    public Transform parent;
     public int a;
     bool aa;
 
@@ -59,6 +63,14 @@ public class message3 : MonoBehaviour
                 //   Debug.Log(a);
                 var objd = Instantiate(texte, new Vector3(-1.0f, 0.0f, 0.0f), Quaternion.identity) as GameObject;
                 objd.name = texte.name;
+            }
+            else if(a==6){
+                var obj1 = Instantiate(button1, new Vector3( 480, 440, 0.0f), Quaternion.identity,parent) as GameObject;
+                obj1.name = button1.name;
+                var obj2 = Instantiate(button2, new Vector3( 734, 248, 0.0f), Quaternion.identity,parent) as GameObject;
+                obj2.name = button2.name;
+                var obj3 = Instantiate(button3, new Vector3( 199, 228, 0.0f), Quaternion.identity,parent) as GameObject;
+                obj3.name = button3.name;
             }
             else if (a == 1)
             {
