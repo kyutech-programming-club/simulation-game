@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SelectOnex : MonoBehaviour
+public class Sone : MonoBehaviour
 {
 
     public void OnClickStartButton()

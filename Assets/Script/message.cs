@@ -9,6 +9,7 @@ public class message : MonoBehaviour
     public GameObject textb;
     public GameObject textc;
     public GameObject textd;
+    public GameObject texte;
     public int a;
     bool aa;
 
@@ -48,6 +49,11 @@ public class message : MonoBehaviour
                 //   Debug.Log(a);
                 var objd = Instantiate(textd, new Vector3( -1.0f, 0.0f, 0.0f), Quaternion.identity) as GameObject;
                 objd.name = textd.name;
+            }
+            else if(a==5){
+                //   Debug.Log(a);
+                var obje = Instantiate(texte, new Vector3( -1.0f, 0.0f, 0.0f), Quaternion.identity) as GameObject;
+                obje.name = texte.name;
             }
             else if (a==1){
                 //   Debug.Log(a);
