@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Sone : MonoBehaviour
 {
-
+    
     public void OnClickStartButton()
     {
         SceneManager.LoadScene("Sone");

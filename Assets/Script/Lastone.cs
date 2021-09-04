@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using static Selectoney;
 using static SelectOnex;
+using static Selectone;
 public class Lastone : MonoBehaviour
 {
     public GameObject texta;
@@ -22,13 +23,15 @@ public class Lastone : MonoBehaviour
     public GameObject textn;
     public GameObject texto;
     public GameObject textp;
+    public GameObject button1;
+    public Transform parent;
     public int a;
     bool aa;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        a=x+y;
+        a=x+y+z;
     }
 
     // Update is called once per frame
@@ -68,66 +71,82 @@ public class Lastone : MonoBehaviour
                 //   Debug.Log(a);
                 var obje = Instantiate(texte, new Vector3( -1.0f, 0.0f, 0.0f), Quaternion.identity) as GameObject;
                 obje.name = texte.name;
+                var obj1 = Instantiate(button1, new Vector3(  464,180 , 0.0f), Quaternion.identity,parent) as GameObject;
+                obj1.name = button1.name;
             }
-            if (a == 6){
+            else if (a == 6){
                 //   Debug.Log(a);
                 var objf = Instantiate(textf, new Vector3( -1.0f, 0.0f, 0.0f), Quaternion.identity) as GameObject;
                 objf.name = textf.name;
                 a += 1;
-            }if (a == 7){
+            }
+            else if (a == 7){
                 //   Debug.Log(a);
                 var objg = Instantiate(textg, new Vector3( -1.0f, 0.0f, 0.0f), Quaternion.identity) as GameObject;
                 objg.name = textg.name;
                 a += 1;
-            }if (a == 8){
+            }
+            else if (a == 8){
                 //   Debug.Log(a);
                 var objh = Instantiate(texth, new Vector3( -1.0f, 0.0f, 0.0f), Quaternion.identity) as GameObject;
                 objh.name = texth.name;
                 a += 1;
-            }if (a == 9){
+            }
+            else if (a == 9){
                 //   Debug.Log(a);
                 var obji = Instantiate(texti, new Vector3( -1.0f, 0.0f, 0.0f), Quaternion.identity) as GameObject;
                 obji.name = texti.name;
-            }if (a == 10){
+                a+=1;
+            }
+            else if (a == 10){
                 //   Debug.Log(a);
                 var objj = Instantiate(textj, new Vector3( -1.0f, 0.0f, 0.0f), Quaternion.identity) as GameObject;
                 objj.name = textj.name;
-                a += 1;
-            }if (a == 11){
+                var obj1 = Instantiate(button1, new Vector3(  464,180 , 0.0f), Quaternion.identity,parent) as GameObject;
+                obj1.name = button1.name;
+            }
+            else if (a == 11){
                 //   Debug.Log(a);
                 var objk = Instantiate(textk, new Vector3( -1.0f, 0.0f, 0.0f), Quaternion.identity) as GameObject;
                 objk.name = textk.name;
                 a += 1;
-            }if (a == 12){
+            }
+            else if (a == 12){
                 //   Debug.Log(a);
                 var objl = Instantiate(textl, new Vector3( -1.0f, 0.0f, 0.0f), Quaternion.identity) as GameObject;
                 objl.name = textl.name;
                 a += 1;
-            }if (a == 13){
+            }
+            else if (a == 13){
                 //   Debug.Log(a);
                 var objm = Instantiate(textm, new Vector3( -1.0f, 0.0f, 0.0f), Quaternion.identity) as GameObject;
                 objm.name = textm.name;
                 a += 1;
-            }if (a == 14){
+            }
+            else if (a == 14){
                 //   Debug.Log(a);
                 var objn = Instantiate(textn, new Vector3( -1.0f, 0.0f, 0.0f), Quaternion.identity) as GameObject;
                 objn.name = textn.name;
                 a += 1;
-            }if (a == 15){
+            }
+            else if (a == 15){
                 //   Debug.Log(a);
                 var objo = Instantiate(texto, new Vector3( -1.0f, 0.0f, 0.0f), Quaternion.identity) as GameObject;
                 objo.name = texto.name;
                 a += 1;
             }
-            if (a == 16){
+            else if (a == 16){
                 //   Debug.Log(a);
                 var objp = Instantiate(textp, new Vector3( -1.0f, 0.0f, 0.0f), Quaternion.identity) as GameObject;
                 objp.name = textp.name;
                 a += 1;
+                var obj1 = Instantiate(button1, new Vector3( 464,180 , 0.0f), Quaternion.identity,parent) as GameObject;
+                obj1.name = button1.name;
             }
             else if (a==1){
                 //   Debug.Log(a);
                 aa = true;
+                a += 1;
             }
         }
     }

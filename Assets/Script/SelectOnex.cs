@@ -10,6 +10,6 @@ public class SelectOnex : MonoBehaviour
     public void OnClickStartButton()
     {
         x+=6;
-        SceneManager.LoadScene("selection2");
+        SceneManager.LoadScene("Lone");
     }
 }

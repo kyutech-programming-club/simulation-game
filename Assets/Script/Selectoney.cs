@@ -9,7 +9,7 @@ public class Selectoney : MonoBehaviour
 
     public void OnClickStartButton()
     {
-        y+=10;
-        SceneManager.LoadScene("selection2");
+        y+=11;
+        SceneManager.LoadScene("Lone");
     }
 }
