@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Rone : MonoBehaviour
+public class Stwo : MonoBehaviour
 {
+    
     public void OnClickStartButton()
     {
-        SceneManager.LoadScene("Opening");
+        SceneManager.LoadScene("Stwo");
     }
 }
