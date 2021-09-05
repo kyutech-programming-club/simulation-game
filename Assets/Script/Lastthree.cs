@@ -64,14 +64,15 @@ public class Lastthree : MonoBehaviour
                 //   Debug.Log(a);
                 var objd = Instantiate(textd, new Vector3( -1.0f, 0.0f, 0.0f), Quaternion.identity) as GameObject;
                 objd.name = textd.name;
+                var obj1 = Instantiate(button1, new Vector3(  464,180 , 0.0f), Quaternion.identity,parent) as GameObject;
+                obj1.name = button1.name;
                 
             }
             else if(a==5){
                 //   Debug.Log(a);
                 var obje = Instantiate(texte, new Vector3( -1.0f, 0.0f, 0.0f), Quaternion.identity) as GameObject;
                 obje.name = texte.name;
-                var obj1 = Instantiate(button1, new Vector3(  464,180 , 0.0f), Quaternion.identity,parent) as GameObject;
-                obj1.name = button1.name;
+                
                 a += 1;
             }
             else if (a == 6){
