@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿   using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -64,15 +64,24 @@ public class Lastthree : MonoBehaviour
                 //   Debug.Log(a);
                 var objd = Instantiate(textd, new Vector3( -1.0f, 0.0f, 0.0f), Quaternion.identity) as GameObject;
                 objd.name = textd.name;
+<<<<<<< HEAD
                 var obj1 = Instantiate(button1, new Vector3(  464,180 , 0.0f), Quaternion.identity,parent) as GameObject;
                 obj1.name = button1.name;
                 
+=======
+                var obj1 = Instantiate(button1, new Vector3(464, 180, 0.0f), Quaternion.identity, parent) as GameObject;
+                obj1.name = button1.name;
+
+>>>>>>> cf061ccbc9f78789aba850eea3cff7b340f16687
             }
             else if(a==5){
                 //   Debug.Log(a);
                 var obje = Instantiate(texte, new Vector3( -1.0f, 0.0f, 0.0f), Quaternion.identity) as GameObject;
                 obje.name = texte.name;
+<<<<<<< HEAD
                 
+=======
+>>>>>>> cf061ccbc9f78789aba850eea3cff7b340f16687
                 a += 1;
             }
             else if (a == 6){
