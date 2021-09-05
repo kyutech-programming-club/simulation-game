@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7979647286386951520}
   - component: {fileID: 7979647286386951521}
   - component: {fileID: 7979647286386951522}
+  - component: {fileID: 7845454585141030788}
   m_Layer: 5
   m_Name: Button3 2
   m_TagString: Untagged
@@ -118,7 +119,30 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7979647286386951521}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7845454585141030788}
+        m_MethodName: OnClickStartButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &7845454585141030788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7979647286386951580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f64d0cf209d28d44a86c555a6dd8e9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7979647286528040318
 GameObject:
   m_ObjectHideFlags: 0
